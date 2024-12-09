@@ -4,6 +4,8 @@ This project focuses on developing an AI-based system to predict the risk of hea
 The primary goal is to enable early detection of potential risks, empowering healthcare providers to implement timely interventions and personalized treatment plans. This not only improves patient outcomes but also enhances healthcare efficiency by automating risk assessments. The system's predictive capabilities aim to assist medical professionals in decision-making, prioritize patient care, and ultimately save lives by reducing delays in diagnosis.
 
 This innovative approach combines data science and medicine to address one of the leading causes of mortality worldwide—heart disease—highlighting the transformative potential of AI in healthcare
+
+
 below we state the problem, objectives and the development process.
 
 ### Team Members:
