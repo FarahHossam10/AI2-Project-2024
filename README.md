@@ -82,7 +82,7 @@ We used several different machine learning algorithms to achieve the highest acc
 
 #### Project Proposal [here](https://drive.google.com/file/d/1zbQRFr8rn5p_C6xAyr5r5TEYbQXefj5_/view?usp=sharing)
 #### Watch this [video](https://youtu.be/nEtLE-8wS8k?si=qDj0I7F3-zC6oplA) to learn more details about our project
-#### Also Check out our presentation [here](https://youtu.be/nEtLE-8wS8k?si=qDj0I7F3-zC6oplA)
+#### Also Check out our presentation [here]([https://youtu.be/nEtLE-8wS8k?si=qDj0I7F3-zC6oplA](https://gamma.app/docs/AI2-Project-Predicting-Heart-Disease-Risk-Using-Machine-Learning-ekf34oik31f9wbz?mode=doc))
 
 
 
