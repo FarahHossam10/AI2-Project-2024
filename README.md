@@ -78,11 +78,65 @@ We used several different machine learning algorithms to achieve the highest acc
 - A 79% F1-Score
 - The SVM model demonstrates an 11% higher accuracy compared to KNN and achieves approximately 2% better accuracy than Logistic Regression.
 
+## Future Work:
+**- Integration with Real-Time Data:**
+Incorporate real-time clinical data from wearable devices (e.g., smartwatches) to dynamically update predictions and provide
+continuous monitoring of heart health.
 
 
+**- Increasing the Dataset Size:**
+Expand the dataset by sourcing additional data from public repositories, hospitals, and clinical trials to improve the
+model's accuracy, robustness, and generalizability.
+
+
+
+**- Deployment as a Web or Mobile Application:**
+Develop an accessible platform (web or mobile app) for healthcare providers and patients to use the model for
+real-time heart disease risk assessment.
+
+
+**- Incorporation of Advanced Algorithms:**
+Explore more complex algorithms such as ensemble models (e.g., Random Forest, XGBoost) and deep learning techniques
+to improve accuracy and handle larger datasets effectively.
+
+
+
+**- Cross-Population Validation:**
+Validate the model on datasets from diverse populations to ensure its generalizability and adaptability to different
+demographics and healthcare systems.
+
+
+**- Feature Expansion:**
+Include additional features such as genetic information, detailed lifestyle habits, and environmental factors to
+make predictions more comprehensive and personalized.
+
+
+**- Explainable AI (XAI):**
+Integrate explainability techniques to provide insights into how the model arrives at its predictions, increasing
+trust and usability for clinicians.
+
+
+**- Collaborations with Healthcare Providers:**
+Partner with hospitals and research institutions to gather more accurate data, refine the model, and validate
+its performance in clinical settings.
+
+
+**- Integration of Risk Mitigation Strategies:**
+Include personalized lifestyle and treatment recommendations alongside risk predictions to provide actionable 
+insights for patients
+
+
+
+## Realted Work:
+- https://iopscience.iop.org/article/10.1088/1757-899X/1022/1/012072/meta
+- https://www.mdpi.com/1999-4893/16/2/88
+- https://docs.google.com/viewer?embedded=true&url=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FV-V-Ramalingam%2Fpublication%2F325116774_Heart_disease_prediction_using_machine_learning_techniques_A_survey%2Flinks%2F5d48560a299bf1995b68266f%2FHeart-disease-prediction-using-machine-learning-techniques-A-survey.pdf
+
+
+  
 #### Project Proposal [here](https://drive.google.com/file/d/1zbQRFr8rn5p_C6xAyr5r5TEYbQXefj5_/view?usp=sharing)
 #### Watch this [video](https://youtu.be/nEtLE-8wS8k?si=qDj0I7F3-zC6oplA) to learn more details about our project
-#### Also Check out our presentation [here]([https://youtu.be/nEtLE-8wS8k?si=qDj0I7F3-zC6oplA](https://gamma.app/docs/AI2-Project-Predicting-Heart-Disease-Risk-Using-Machine-Learning-ekf34oik31f9wbz?mode=doc))
+#### Also Check out our presentation [here](https://gamma.app/docs/AI2-Project-Predicting-Heart-Disease-Risk-Using-Machine-Learning-ekf34oik31f9wbz?mode=doc)
 
 
 
