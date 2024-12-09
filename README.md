@@ -38,7 +38,9 @@ emphasizing effective feature selection, optimal algorithm performance, and prac
   allowing the model to learn and be evaluated.
     
 ### 2- Exploratory Data Analysis (EDA) 
-**Visualization and Correlation Analysis:**
+**Visualization and Correlation Analysis:**  
+
+
 We used several different visualizations:
 - Histograms to view frequency distributions of different features.
 - box plots to detect outliers.
@@ -49,13 +51,15 @@ We used several different visualizations:
 
 ### 3- Model Training
 **Algorithms Used:**
+
+
 We used several different machine learning algorithms to achieve the highest accuracy for this dataset:
-1- Linear Regression: While not typically used for classification, can predict a continuous risk score,
+1. Linear Regression: While not typically used for classification, can predict a continuous risk score,
    useful for personalized risk assessment.
-2- Logistic Regression: Estimates the probability of heart disease based on input features, interpretable
+2. Logistic Regression: Estimates the probability of heart disease based on input features, interpretable
    and widely used.
-3- K Nearest Neighbors (KNN): Classifies data points based on proximity to similar data points, simple but effective.
-4- Support Vector Machine (SVM): Finds a hyperplane to separate data points into classes,
+3. K Nearest Neighbors (KNN): Classifies data points based on proximity to similar data points, simple but effective.
+4. Support Vector Machine (SVM): Finds a hyperplane to separate data points into classes,
    powerful and versatile for complex patterns.
     
 ### 4- Model Evaluation
