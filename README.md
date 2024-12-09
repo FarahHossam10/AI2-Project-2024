@@ -1,6 +1,9 @@
 ## Predicting Heart Disease Risk Using Machine Learning
-In this project we tried building a machine learning model for predicting heart disease risk
-based on several features like age, gender, blood pressure, etc.
+This project focuses on developing an AI-based system to predict the risk of heart disease in individuals using clinical and demographic data. By leveraging machine learning algorithms, the model analyzes features such as chest pain type, cholesterol levels, blood pressure, and other health indicators to assess the likelihood of heart-related conditions.
+
+The primary goal is to enable early detection of potential risks, empowering healthcare providers to implement timely interventions and personalized treatment plans. This not only improves patient outcomes but also enhances healthcare efficiency by automating risk assessments. The system's predictive capabilities aim to assist medical professionals in decision-making, prioritize patient care, and ultimately save lives by reducing delays in diagnosis.
+
+This innovative approach combines data science and medicine to address one of the leading causes of mortality worldwide—heart disease—highlighting the transformative potential of AI in healthcare
 below we state the problem, objectives and the development process.
 
 ### Team Members:
