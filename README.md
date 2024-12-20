@@ -47,25 +47,34 @@ emphasizing effective feature selection, optimal algorithm performance, and prac
 
 
 We used several different visualizations:
-- Histograms to view frequency distributions of different features.
+- Histograms to view frequency distributions of different features, along with density lines to
+  make up for missing information due to fixed number of bins in histograms.
 - box plots to detect outliers.
 - Heatmaps to visualize the relationships between features.
-- pairplots to show scatterplots for every pair of numerical features in the dataset.
+- Scatterplots to show relations between numerical features.
+- Stripplots which are very similar to scatterplots but are used to show relations between
+  numerical and categorical features rather than only numerical ones.
 - bar charts to summarize and compare categorical data, in our case for example between the two categories
   of the label or target which is 1 or 0, a heart disease patient or not.
+- pie charts to show percentages across different categories of features.
 
 ### 3- Model Training
 **Algorithms Used:**
 
 
 We used several different machine learning algorithms to achieve the highest accuracy for this dataset:
-1. Linear Regression: While not typically used for classification, can predict a continuous risk score,
-   useful for personalized risk assessment.
-2. Logistic Regression: Estimates the probability of heart disease based on input features, interpretable
-   and widely used.
-3. K Nearest Neighbors (KNN): Classifies data points based on proximity to similar data points, simple but effective.
-4. Support Vector Machine (SVM): Finds a hyperplane to separate data points into classes,
+1. Logistic Regression: Estimates the probability of heart disease based on input features, interpretable
+   and widely used, it's also perfect for our task since it's a binary classification task.
+2. K Nearest Neighbors (KNN): Classifies data points based on proximity to similar data points, simple but effective.
+3. Support Vector Machine (SVM): Finds a hyperplane to separate data points into classes,
    powerful and versatile for complex patterns.
+4. Desicion Tree: Which mimic human decision-making by splitting data into branches based on questions
+   or thresholds. This makes them simple to understand and interpret.
+5. Random Forest: Which is an ensemble learning method that builds multiple Decision Trees and combines
+   their outputs for better performance. it's widely used because it overcomes the overfitting that can result
+   when using the desicion tree algorithm.
+   
+   
     
 ### 4- Model Evaluation
 **We used a variety of evaluation methods:**
@@ -74,9 +83,21 @@ We used several different machine learning algorithms to achieve the highest acc
 - Precision, Recall, F1-Score: Additional metrics to evaluate the model's performance, particularly in imbalanced datasets.
 
 **Evaluation Results:**
-- The model achieved a highest accuracy of **88.33% using SVM.**
-- A 79% F1-Score
-- The SVM model demonstrates an 11% higher accuracy compared to KNN and achieves approximately 2% better accuracy than Logistic Regression.
+- The model achieved a highest accuracy of **88.4% using KNN.**, an 86% accuracy for logistic regression,
+  and an 84.78% for SVM.
+- An 84% F1-Score
+
+
+### 5- Project Deplyment
+We used the **Streamlit library** to deploy our project as a web page, users can use the model by entering different pieces
+of information like their gender, age and chest pain type for the model to then use this information to predict their risk
+of heart disease.
+
+
+Deployment was done using the model built using the random forest algorithm. 
+
+
+We also used the **Pickle library** to save and upload the model.
 
 ## Future Work:
 **- Integration with Real-Time Data:**
@@ -87,17 +108,6 @@ continuous monitoring of heart health.
 **- Increasing the Dataset Size:**
 Expand the dataset by sourcing additional data from public repositories, hospitals, and clinical trials to improve the
 model's accuracy, robustness, and generalizability.
-
-
-
-**- Deployment as a Web or Mobile Application:**
-Develop an accessible platform (web or mobile app) for healthcare providers and patients to use the model for
-real-time heart disease risk assessment.
-
-
-**- Incorporation of Advanced Algorithms:**
-Explore more complex algorithms such as ensemble models (e.g., Random Forest, XGBoost) and deep learning techniques
-to improve accuracy and handle larger datasets effectively.
 
 
 
@@ -136,7 +146,9 @@ insights for patients
   
 #### Project Proposal [here](https://drive.google.com/file/d/1zbQRFr8rn5p_C6xAyr5r5TEYbQXefj5_/view?usp=sharing)
 #### Watch this [video](https://youtu.be/nEtLE-8wS8k?si=qDj0I7F3-zC6oplA) to learn more details about our project
-#### Also Check out our presentation [here](https://gamma.app/docs/AI2-Project-Predicting-Heart-Disease-Risk-Using-Machine-Learning-ekf34oik31f9wbz?mode=doc)
+#### Also Check out our presentation [here](https://www.canva.com/design/DAGZMiAU6P8/pXhUO6kElHlMxupEgMS_qQ/edit?utm_content=DAGZMiAU6P8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+#### and the other presentation using gamma [here](https://gamma.app/docs/AI2-Project-Predicting-Heart-Disease-Risk-Using-Machine-Learning-ekf34oik31f9wbz?mode=doc)
+
 
 
 
